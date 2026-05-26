@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-retro: "Press Start 2P", monospace;
+}
+
+/* Custom CSS to hide scrollbars and styling for crisp pixel rendering */
+canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.pixel-border {
+  border-style: solid;
+  border-width: 4px;
+  border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath d='M0 0h12v12H0z' fill='none'/%3E%3Cpath d='M0 0h4v4H0zm4 0h4v4H4zm4 0h4v4H8zM0 4h4v4H0zm8 0h4v4H8zM0 8h4v4H0zm4 0h4v4H4zm4 0h4v4H8z' fill='%23222'/%3E%3C/svg%3E") 4 repeat;
+}
+
+.glow-retro {
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+}
+
+.glow-retro-blue {
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Petualangan Retro Pixel",
+  "description": "Game platformer 2D retro bergaya pixel art dengan karakter laki-laki pengembara yang bisa meloncat, dash, jongkok, dan memanjat dinding untuk mengeksplorasi area tersembunyi berharga bergaya Mario.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
